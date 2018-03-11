@@ -69,7 +69,7 @@
     "mongodb": "^2.1.7",
     "moniker": "^0.1.2",
     "node-libs-browser": "^1.0.0",
-    "node-pre-gyp": "^0.6.21",
+    "node-pre-gyp": "^0.7.0",
     "node-sass": "^3.4.2",
     "node-zip": "^1.1.1",
     "nopt": "^3.0.6",
