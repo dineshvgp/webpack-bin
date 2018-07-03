@@ -22,7 +22,9 @@
   "scripts": {
     "start": "node start.js",
     "build": "webpack --config webpack.production.config.js",
-    "postinstall": "node configure && npm run build"
+    "postinstall": "node configure && npm run build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
@@ -98,6 +100,8 @@
     "webpack-bin-babel-core": "https://github.com/christianalfoni/webpack-bin-babel-core.git",
     "webpack-dev-middleware": "^1.5.1",
     "webpack-hot-middleware": "^2.10.0",
-    "ws": "^1.0.1"
-  }
+    "ws": "^1.0.1",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }
