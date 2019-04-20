@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - npm-extractor > node-pre-gyp > hawk > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-04-20T05:47:16.180Z'
+  'npm:lodash:20180130':
+    - kotatsu > lodash:
+        patched: '2019-04-20T05:47:16.180Z'
+    - webpack-bin-babel-core > lodash:
+        patched: '2019-04-20T05:47:16.180Z'
+    - kotatsu > http-proxy-middleware > lodash:
+        patched: '2019-04-20T05:47:16.180Z'
+  'npm:minimatch:20160620':
+    - npm-extractor > recursive-readdir > minimatch:
+        patched: '2019-04-20T05:47:16.180Z'
+    - webpack-bin-babel-core > minimatch:
+        patched: '2019-04-20T05:47:16.180Z'
+  'npm:semver:20150403':
+    - npm-extractor > npm-registry > semver:
+        patched: '2019-04-20T05:47:16.180Z'
+    - npm-extractor > npm-registry > licenses > npm-registry > semver:
+        patched: '2019-04-20T05:47:16.180Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2019-04-20T05:47:16.180Z'
