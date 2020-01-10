@@ -70,7 +70,7 @@
     "moniker": "^0.1.2",
     "node-libs-browser": "^1.0.0",
     "node-pre-gyp": "^0.6.21",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.4.0",
     "node-zip": "^1.1.1",
     "nopt": "^3.0.6",
     "npm-extractor": "git+https://github.com/christianalfoni/npm-extractor.git",
