@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - npm-extractor > node-pre-gyp > hawk > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+    - npm-extractor > node-pre-gyp > hawk > boom > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+    - npm-extractor > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+    - npm-extractor > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+    - npm-extractor > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+    - npm-extractor > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+    - npm-extractor > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+    - npm-extractor > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-07-16T16:40:37.816Z'
+  'npm:minimatch:20160620':
+    - npm-extractor > recursive-readdir > minimatch:
+        patched: '2022-07-16T16:40:37.816Z'
+  'npm:semver:20150403':
+    - npm-extractor > npm-registry > semver:
+        patched: '2022-07-16T16:40:37.816Z'
