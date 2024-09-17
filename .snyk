@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - npm-extractor > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:48:11.345Z'
+        id: 'npm:hoek:20180212'
+        path: npm-extractor > node-pre-gyp > hawk > cryptiles > boom > hoek
+    - npm-extractor > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:48:11.345Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          npm-extractor > node-pre-gyp > request > hawk > cryptiles > boom >
+          hoek
